@@ -16,7 +16,7 @@ public class ToDoListApp {
             System.out.print("Choose an option (1-4): ");
 
             int choice = scanner.nextInt();
-            scanner.nextLine(); // Consume newline
+            scanner.nextLine(); 
 
             switch (choice) {
                 case 1:
